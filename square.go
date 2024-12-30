@@ -9,7 +9,7 @@ type Square struct {
 }
 
 func (s Square) Draw() {
-	rl.DrawRectangle(int32(s.X*SQUARESIZE-10), int32(s.Y*SQUARESIZE-10), SQUARESIZE+20, SQUARESIZE+20, rl.Black)
+	// rl.DrawRectangle(int32(s.X*SQUARESIZE-10), int32(s.Y*SQUARESIZE-10), SQUARESIZE+20, SQUARESIZE+20, rl.Black)
 	rl.DrawRectangle(int32(s.X*SQUARESIZE), int32(s.Y*SQUARESIZE), SQUARESIZE, SQUARESIZE, s.Color)
 }
 

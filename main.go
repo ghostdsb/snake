@@ -13,6 +13,7 @@ const (
 	GAMEPLAYHEIGHT          = 600
 	SQUARESIZE              = 30
 	GAMEPLAY_BOUNDARY_WIDTH = 3
+	SPEED                   = 0.05
 	GAMEPLAY_X_OFFSET       = (SCREENWIDTH - GAMEPLAYWIDTH) / 2
 	GAMEPLAY_Y_OFFSET       = SCREENHEIGHT - GAMEPLAY_X_OFFSET - GAMEPLAYHEIGHT
 )
@@ -71,7 +72,7 @@ func input() {
 
 func update() {
 	running = !rl.WindowShouldClose()
-	moveTimer += 0.1
+	moveTimer += SPEED
 	if moveTimer >= moveInterval {
 		// if once {
 		// 	grid := GetGrid(snake, food)
