@@ -2,7 +2,7 @@
 
 ![snake](snake-game.gif)
 
-This project is a Snake game implemented using the Raylib library, where the snake uses Breadth-First Search (BFS) to find food and Flood Fill for survival in challenging situations. The AI ensures the snake avoids walls and its own body, offering a smart and engaging gameplay experience.
+This project is a Snake game implemented using the Raylib library, where the snake uses Breadth-First Search (BFS) to find food and Flood Fill for survival in challenging situations. The AI ensures the snake avoids walls and its own body.
 
 ### Features
 
